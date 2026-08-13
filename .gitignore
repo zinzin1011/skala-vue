@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+# OpenWeatherMap API 키처럼 실제 비밀값이 들어가는 로컬 전용 환경변수만 제외한다.
+# .env.staging / .env.production은 Code Challenge - env(10. Vite Build & Deployment)에서
+# 쓰는 파일인데, 안에 든 값이 비밀키가 아니라 빌드 모드별 예시 URL이라 커밋해도 안전하다 —
+# 그래서 이 두 파일은 아래 패턴에 걸리지 않게 남겨둔다.
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+.eslintcache
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Vitest
+__screenshots__/
+
+# Vite
+*.timestamp-*-*.mjs
+.vite
