@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>날씨 정보 웹앱</title>
+  <rect width="64" height="64" rx="15" fill="#5fb0f5"/>
+  <circle cx="23" cy="23" r="12" fill="#ffd166"/>
+  <path d="M19 47a10.5 10.5 0 0 1 2.2-20 14.5 14.5 0 0 1 27 4.2A8.4 8.4 0 0 1 46 47z" fill="#ffffff"/>
+</svg>
